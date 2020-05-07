@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page2!</title>
+    <title>Ice Cream!</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="https://cdn.clipart.email/7fbc3bf67dcf45b188128ca3eca99156_ice-cream-clipart-free-19-ice-cream-jpg-transparent-png-download-_880-920.jpeg"/>
 </head>
 <body>
-    <h1 class="header1">Ice Cream request form</h1>
+    <h1 class="header1">Ice Cream Request Form</h1>
     <div>
-        <p>I've recently gotten into making ice cream! Hit up the form below if you'd like a contactless ice cream deliver!</p>
+        <p>I've recently gotten into making ice cream! Hit up the form below if you'd like a contactless ice cream delivery!</p>
     </div>
     <a href="index.html">Back to Home</a>
     <div>
-        <form action="index.html" method="GET" class="form">
+        <form action="response.html" method="GET" class="form" target="_self">
             <div>
                 <label>Name:
                     <input type="text" name="name">
@@ -21,12 +22,17 @@
             </div>
             <div>
                 <label>Phone:
-                    <input type="number" name="phone">
+                    <input type="text" name="phone">
                 </label>
             </div>
             <div>
                 <label>Email:
                     <input type="email" name="submitted-email">
+                </label>
+            </div>
+            <div>
+                <label>Address:
+                    <input type="address" name="address">
                 </label>
             </div>
             <div class="flavor-request">
@@ -37,6 +43,11 @@
             <div class="flavor-request">
                 <label>Secondary flavor request:
                     <input type="text" name="flavor">
+                </label>
+            </div>
+            <div class="flavor-request">
+                <label>Suggestions or ideas?
+                    <input type="" name="flavor">
                 </label>
             </div>
             <button >Submit!</button>
